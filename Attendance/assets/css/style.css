@@ -1,0 +1,138 @@
+
+body.login-body {
+  background-color:#198754;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+form .form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 5px #198754;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #198754;
+  border: none;
+}
+
+button:hover {
+  background-color: #2575fc;
+}
+
+.form-check-label {
+  margin-bottom: 0;
+}
+
+.text-primary {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.text-primary:hover {
+  text-decoration: underline;
+}
+
+
+  
+
+  /* student login start */
+
+  body.student-login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Default status colors */
+.status-active {
+  color: green;
+}
+.status-inactive {
+  color: red;
+}
+
+/* Default status colors */
+.status-active {
+  color: green;
+}
+.status-inactive {
+  color: red;
+}
+
+/* Hover effect: background changes on hover */
+.status-active:hover, .status-inactive:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+  padding: 2px; /* Adding some padding for hover effect */
+  border-radius: 3px; /* Rounded corners for better visual effect */
+}
+
+/* Custom styles for table and buttons */
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Light blue hover effect */
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Adjust layout for the search input */
+.input-group {
+  margin-left: auto; /* Pushes the search bar to the right */
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .input-group {
+      width: 100%; /* Make the search bar full width on small screens */
+  }
+
+  .btn {
+      width: 100%; /* Make buttons full width on small screens */
+      margin-top: 0.5rem; /* Add some spacing on top */
+  }
+}
+
+

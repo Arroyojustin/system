@@ -1,0 +1,50 @@
+#attendance {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.attendance-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group .btn {
+    margin: 0 5px;
+}
+
+.attendance-btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+@media (max-width: 576px) {
+    .table {
+        font-size: 0.9rem; /* Slightly smaller text on mobile */
+    }
+
+    .attendance-btn {
+        width: 100%; /* Make buttons full width on small screens */
+        margin-bottom: 5px; /* Space between buttons */
+    }
+
+    .attendance-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+    }
+}
